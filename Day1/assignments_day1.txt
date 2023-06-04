@@ -1,0 +1,10 @@
+Note 1: when taking user input using input() you can pass prompt to the user example
+name=input("enter your name: ")
+
+Note 2: For assignments you might need to use some of the string methods that were not discussed in class. You can refer to below link for reference:
+
+https://www.w3schools.com/python/python_ref_string.asp
+
+
+
+
