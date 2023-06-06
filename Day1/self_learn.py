@@ -43,5 +43,5 @@
 
 a=12.1
 print(int(a))
-
+#strings are immutable.
 
