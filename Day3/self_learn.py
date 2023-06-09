@@ -23,10 +23,23 @@
 # print(ipl["CSK"]["Name"])
 
 #loops
+num_sq=[]
 num =[1,2,3]
-for i in num:
-    num_sq = num ** num
-    print(num_sq) 
+# num_sq.append(num[1]** 2)
+# print(num_sq)
+
+# n=0
+# while n < len(num):
+#     print(f"less than {n}")
+#     num_sq.append(num[n]** 2)
+#     n=n+1
+
+for n in range(len(num)):
+    print(f"still less than {n}")
+    num_sq.append(pow(num[n],2))
+    n=n+1
+print(num_sq)
+
 
 
 
