@@ -15,4 +15,9 @@
 # odd_position_values = list1[1::2]
 # print("New list with odd position values:", odd_position_values)
 
- 
+list1=[1,2,3,4,5,6,7,8]
+odd_position_values = []
+for i in range(len(list1)):
+    if i%2!=0:
+        odd_position_values.append(list1[i])
+print(odd_position_values)

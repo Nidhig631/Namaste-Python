@@ -1,5 +1,7 @@
-def getsum(a,b):
+def mgetsum(a,b):
     return a+b
 
-def getproduct(a,b):
+def mgetproduct(a,b):
     return a*b
+
+num =5

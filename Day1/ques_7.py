@@ -1,4 +1,5 @@
-# 7- take 3 inputs from user : first name , last name and age . Display the information in below format
+# 7- take 3 inputs from user : first name , last name and age .
+#  Display the information in below format
 # exmaple 
 # first name : MOhit
 # last name : sharma 

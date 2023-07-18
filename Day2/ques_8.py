@@ -10,9 +10,9 @@
 
 ipl= ['CSK','MI','KKR','LSG','PBKS']
 i = int(input("Enter the index "))
-new_team = input("enter the team_name ")
+newteam = input("enter the team_name ")
 ipl_new = ipl.copy()
 print(ipl)
 ipl_new.insert(i,new_team)
-
+_
 print(ipl_new)

@@ -7,7 +7,7 @@
 #     c=a+b
 #     return c
 
-# d= sum(3) # if  we do not pass it will take defualt value
+# d= sum(2,3) # if  we do not pass it will take defualt value
 # print(d)
 
 
@@ -49,5 +49,22 @@
 # d= getsum(b=1,a=2)
 # print(d)    
 
-import calc
-print(calc.getsum(1,2))
+#module
+# import calc
+# print(calc.mgetsum(1,2))
+
+# print(calc.num)
+
+#import from package
+# from mypackage import calc1 as c
+# print(c.mgetsum(1,2))
+
+import os,datetime as dt
+print(os.listdir())
+print(dt.datetime.today().strftime('%Y-%m-%d'))
+
+
+
+
+
+

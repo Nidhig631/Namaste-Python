@@ -1,13 +1,12 @@
-def reversed_words(sentence):
+def reversed(sentence):
     words = sentence.split()
     print(words)
-    rev_words = [word[::-1] for word in words]
-    print(rev_words)
-    reversed_sentence = "".join(rev_words)
-    return reversed_sentence
-        
+    reverse = [word[::-1] for word in words]
+    reversed_string = "".join(reverse)
+    return reversed_string
 
 
-sentence = input("Enter the sentence")
-reversed_sentence = reversed_words(sentence)
-print(f'reversed_sentence: {reversed_sentence}')
+
+sentence = input("enter the sentence")
+reversed_string = reversed(sentence)
+print(reversed_string)
