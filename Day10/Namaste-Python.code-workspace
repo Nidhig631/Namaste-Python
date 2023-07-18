@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../Downloads/Namastekart-Vaibhav Desai"
+		}
+	],
+	"settings": {
+		"databricks.python.envFile": "${workspaceFolder}/.env"
+	}
+}
